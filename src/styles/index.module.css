@@ -1,0 +1,60 @@
+.pageHome{
+    width: 100%;
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+.centerPage{
+    gap: .3em;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header > div{
+    gap: .35em;
+    display: flex;
+    align-items: center;
+}
+.btnHeader{
+    border: none;
+    font-size: 1.12em;
+    padding: .3em .8em;
+    border-radius: .5em;
+}
+.titleToDo{
+    font-size: 1.5em;
+}
+.tableContainer{
+    width: 100%;
+    padding: .3em;
+    min-height: 20em;
+    border-radius: .3em;
+    border: .12em solid #888;
+}
+.tableHead{
+    width: 100%;
+}
+.rowHead{
+    width: 100%;
+}
+.columnHead{
+    width: 50%;
+    color: #444;
+    padding: .35em;
+    font-weight: 600;
+    font-size: 1.15em;
+    background: whitesmoke;
+}
+.tableBody{
+    width: 100%;
+    flex-direction: column;
+}
+.NoBodyTable{
+    height: 100%;
+}
